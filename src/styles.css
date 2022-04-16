@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.anime-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1.5rem;
+  margin: 15px;
+}
+
+.anime-list li {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px;
+}
+
+.anime-list img {
+  max-width: 100%;
+}
+
+body {
+  color: #fff;
+  background-image: url("https://p.favim.com/orig/2019/01/17/color-palette-aesthetics-background-art-anime-aesthetic-Favim.com-6772122.jpg");
+}
